@@ -1,5 +1,4 @@
 function arraySubset(source, subset) {
-
     if(subset.length > source.length) {
         return false;
     }
@@ -11,14 +10,14 @@ function arraySubset(source, subset) {
             return false;
         }
     }
+
     return true;
 }
-
-
 function getTheSameArrayExceptValue(source, valueToDelete) {
     source.splice(source.indexOf(valueToDelete), 1);
     return source;
 }
+
 
 
 
