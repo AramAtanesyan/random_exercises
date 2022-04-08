@@ -70,10 +70,10 @@ const activatePlusMinusButtons = function() {
         })
     });
 
-
     function inputOnlyCorrectValue() {
         input.value = Math.abs(input.value) > 0 ? Math.abs(input.value) : 1;
     }
+
 };
 
 activatePlusMinusButtons();

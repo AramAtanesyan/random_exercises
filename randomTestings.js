@@ -1,4 +1,5 @@
 function arraySubset(source, subset) {
+
     if(subset.length > source.length) {
         return false;
     }
@@ -13,10 +14,12 @@ function arraySubset(source, subset) {
     return true;
 }
 
+
 function getTheSameArrayExceptValue(source, valueToDelete) {
     source.splice(source.indexOf(valueToDelete), 1);
     return source;
 }
+
 
 
 console.log(arraySubset([2, 1, 3], [1, 2])) // -> true
