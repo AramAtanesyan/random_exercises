@@ -39,7 +39,7 @@ const activatePlusMinusButtons = function() {
                         holdEvent = true;
                         tempIndex = i;
                         inputOnlyCorrectValue();
-                    }, 300);
+                    }, 100);
                 }, 100);
             }else {
                 minusTimeout = setTimeout(() => {
@@ -48,7 +48,7 @@ const activatePlusMinusButtons = function() {
                         holdEvent = true;
                         tempIndex = i;
                         inputOnlyCorrectValue();
-                    }, 300);
+                    }, 100);
                 }, 100);
             }
 
