@@ -1,14 +1,14 @@
 let countOfZeros;
 
-const getFilledArray = function(number) {
+const getFilledArray = function (number) {
     const resAr = new Array(number);
     resAr.fill(1);
     countOfZeros = number / 10;
 
     let alreadyPushedIndexes = [];
-    for(let i = 0; i < countOfZeros; i++) {
+    for (let i = 0; i < countOfZeros; i++) {
         let randomIndex = Math.floor(Math.random() * (number + 1));
-        if(alreadyPushedIndexes.includes(randomIndex)) {
+        if (alreadyPushedIndexes.includes(randomIndex)) {
             i--;
             continue;
         }
@@ -24,10 +24,10 @@ console.log(initialAr)
 let firstCollection = [];
 let secondCollection = [];
 
-for(let i = 0; i < initialAr.length; i++) {
-    if(i < countOfZeros) {
+for (let i = 0; i < initialAr.length; i++) {
+    if (i < countOfZeros) {
         secondCollection.push(initialAr[i])
-    }else {
+    } else {
         firstCollection.push(initialAr[i]);
     }
 }

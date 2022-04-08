@@ -17,8 +17,8 @@ const getNumPos = num => {
 
 
 const getGreatestNum = num => {
-    let numAsArray = Array.from(String(num),  num => Number(num));
-    return  numAsArray.reduce((acc, v, i) => {
+    let numAsArray = Array.from(String(num), num => Number(num));
+    return numAsArray.reduce((acc, v, i) => {
         return acc > v ? acc : v;
     })
 }
@@ -30,13 +30,11 @@ const reversedString = str => {
 
 const getThePointOfNum = num => {
     let res = '1';
-    for(let i = 1; i < num; i++) {
+    for (let i = 1; i < num; i++) {
         res += '0';
     }
     return +res;
 
 }
-
-
 
 console.log(getNumPos(123));

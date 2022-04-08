@@ -12,7 +12,7 @@ const fruitsSorter = fruits => {
 
     const obj = {}
     fruits.forEach(fruit => {
-        if(!obj.hasOwnProperty(fruit)) {
+        if (!obj.hasOwnProperty(fruit)) {
             obj[fruit] = 0;
         }
         obj[fruit]++;
