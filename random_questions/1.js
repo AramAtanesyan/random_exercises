@@ -33,7 +33,6 @@ const countTheSum = arr => {
     return sumOfSecondLine + sumOfFirstLine;
 }
 
-dsfsdf
 console.log(countTheSum([
     [1,   2,  3 ],
     [6,   7,  3 ],
