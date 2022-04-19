@@ -5,7 +5,7 @@
 * */
 
 const printTheMatrix = arr => {
-
+sdfsdf
     for(let i = 0; i < arr.length; i++) {
         for(let j = 0; j < arr[i].length; j++) {
             document.write(arr[i][j] + ' ');
@@ -33,7 +33,7 @@ const countTheSum = arr => {
     return sumOfSecondLine + sumOfFirstLine;
 }
 
-
+dsfsdf
 console.log(countTheSum([
     [1,   2,  3 ],
     [6,   7,  3 ],
