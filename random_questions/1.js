@@ -33,11 +33,11 @@ const countTheSum = arr => {
     return sumOfSecondLine + sumOfFirstLine;
 }
 
-console.log(countTheSum([
-    [1,   2,  3 ],
-    [6,   7,  3 ],
-    [11,  12, 3 ],
-    [16,  17, 3 ],
-    [21,  22, 3 ],
-    [24,  23, 3 ]
+console.log(countTheSum( [
+    [1, 2, 3, 0, 3, 1, 2],
+    [5, 6, 7, 4, 3, 1, 2],
+    [1, 3, 6, 0, 3, 1, 2],
+    [8, 2, 3, 9, 3, 4, 2],
+    [8, 2, 3, 9, 3, 4, 2],
+    [8, 2, 3, 9, 3, 4, 2],
 ]));
