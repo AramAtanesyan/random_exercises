@@ -1,0 +1,28 @@
+.testing {
+    width: 70%;
+}
+
+.tools-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.tools-container div {
+    background: gray;
+    width: 50px;
+    height: 50px;
+    margin-right: 3px;
+    border: 2px solid #e7e7e7;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tools-container .comments-tool {
+    resize: auto;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
